@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  padding: 15px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+body {
+  margin: 0px;
+  background-color: #008080;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
+  font-family: sans-serif;
+}
+.grid img {
+  border: 2px solid #000000;
+  border-radius: 50px;
+}
+.origami {
+  border-radius: 20px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+  width: 310px;
+  font-family: fantasy;
+}
+
+#D {
+  font-family: "Bebas Neue", cursive;
+  font-size: 70px;
+  position: absolute;
+  transform: translate(70%, 290%);
+}
+
+#A {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  transform: translate(290%, 550%);
+  padding: 7px;
+  border: 1px white solid;
+}
+
+#p1 {
+  font-family: "Righteous", cursive;
+  text-align: center;
+  font-size: 40px;
+}
+
+h3,
+li {
+  font-family: "Varela Round", sans-serif;
+}
